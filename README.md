@@ -1,7 +1,7 @@
 # Phase 1 : Agent Wallboard API with Professional Structure 🥀💔
 ---
 
-###  ☝️​🤓​ **About it**
+##  ☝️​🤓​ **About it**
   -**This is the backend srtipt for the Agent Wallboard (Web)App**    
   **It's Directory Contain**
 
@@ -29,11 +29,12 @@ AGENT-WALLBOARD-API [WSL:Somethigs......blablabla]/
 └── 📄 server.js           # Main application
 ```
 ---
-## Explanation About It
+### Explanation About It
 
 * `xxx` → xxx for xxx to do xyz 
 **ts lowkey pmo**
-###             🥷🏿​
+#     🥷🏿​
+
 
 
 
