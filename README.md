@@ -1,6 +1,9 @@
-# Phase 1 Enhanced: Agent Wallboard API with Professional Structure 🥀💔
+# Phase 1 : Agent Wallboard API with Professional Structure 🥀💔
 ---
-### **Overall Dih Structure of Phase 1**
+
+###  ☝️​🤓​ **About it**
+  -**This is the backend srtipt for the Agent (Web)App**    
+  **It's Directory Contain**
 
 ```
 AGENT-WALLBOARD-API [WSL:NIGGER~~]/
@@ -26,6 +29,6 @@ AGENT-WALLBOARD-API [WSL:NIGGER~~]/
 └── 📄 server.js           # Main application
 ```
 ---
-## code bla bla explain
+## Explanation About It
 
 * `xxx` → xxx for xxx to do xyz 
