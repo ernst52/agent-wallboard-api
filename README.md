@@ -31,9 +31,10 @@ AGENT-WALLBOARD-API [WSL:Somethigs......blablabla]/
 ---
 ### Explanation About It
 
-* `xxx` → xxx for xxx to do xyz 
-**ts lowkey pmo**
+- * `xxx` → xxx for xxx to do xyz 
+- **ts lowkey pmo**
 #     🥷🏿​
+
 
 
 
