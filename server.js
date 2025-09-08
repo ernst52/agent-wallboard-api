@@ -53,8 +53,12 @@ app.get('/', (req, res) => {
 // API routes
 app.use('/api', routes);
 
-// Error handlers (ต้องอยู่ท้ายสุด)
-app.use('*', notFoundHandler);
+// Catch-all 404 handler (fixed)
+app.use((req, res) => {
+  res.status(404).json({ message: 'Route not found' });
+});
+
+// Global error handler
 app.use(globalErrorHandler);
 
 // Start server
@@ -66,7 +70,7 @@ const server = app.listen(PORT, () => {
   console.log(`🌍 Environment: ${process.env.NODE_ENV || 'development'}`);
 });
 
-// Graceful shutdown (เตรียมสำหรับ Phase 3)
+// Graceful shutdown (Phase 3 prep)
 process.on('SIGTERM', () => {
   console.log('🛑 SIGTERM received, shutting down gracefully');
   server.close(() => {
