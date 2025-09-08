@@ -48,7 +48,9 @@ router.get('/docs', (req, res) => {
   });
 });
 
-// Mount agent routes
-router.use('/agents', agentRoutes);
+// Mount agent routes (with versioning)
+router.use('/v1/agents', agentRoutes);
+// router.use('/v2/agents', agentRoutesV2);
+router.use('/agents', agentRoutes); // default = latest
 
 module.exports = router;
